@@ -18,19 +18,20 @@ public class MyLinkedList {
 		if (head == null) {
 			head = newNode;
 		} else {
-			Node next = head;
+			Node next = head; 
 			while (next.link != null) {
 				next = next.link;
 			}
 			next.link = newNode;
+			
 		}
 	}
 
 	public void print() {
 		if (head == null) {
-			System.out.println("µî·ÏµÈ µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ë“±ë¡ëœ ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("µî·ÏµÈ µ¥ÀÌÅÍ´Â ´ÙÀ½°ú °°½À´Ï´Ù.");
+			System.out.println("ë“±ë¡ëœ ë°ì´í„°ëŠ” ë‹¤ìŒê³¼ ê°™ìŠµë‹ˆë‹¤.");
 			Node next = head;
 			while (next != null) {
 				System.out.println(next.data);

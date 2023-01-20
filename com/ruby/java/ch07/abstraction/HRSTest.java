@@ -11,34 +11,34 @@ abstract class Employee {
 
 class Salesman extends Employee {
 	public void calcSalary() {
-		System.out.println("Salesman ±Ş¿© = ±âº»±Ş + ÆÇ¸Å ¼ö´ç");
+		System.out.println("Salesman ê¸‰ì—¬ = ê¸°ë³¸ê¸‰ + íŒë§¤ ìˆ˜ë‹¹");
 	}
 
 	public void calcBonus() {
-		System.out.println("Salesman º¸³Ê½º = ±âº»±Ş * 12 * 4");
+		System.out.println("Salesman ë³´ë„ˆìŠ¤ = ê¸°ë³¸ê¸‰ * 12 * 4");
 	}
 }
 
 class Consultant extends Employee {
 	public void calcSalary() {
-		System.out.println("Consultant ±Ş¿© = ±âº»±Ş + ÄÁ¼³ÆÃ Æ¯º° ¼ö´ç");
+		System.out.println("Consultant ê¸‰ì—¬ = ê¸°ë³¸ê¸‰ + ì»¨ì„¤íŒ… íŠ¹ë³„ ìˆ˜ë‹¹");
 	}
 
 	public void calcBonus() {
-		System.out.println("Consultant º¸³Ê½º = ±âº»±Ş * 12 * 2");
+		System.out.println("Consultant ë³´ë„ˆìŠ¤ = ê¸°ë³¸ê¸‰ * 12 * 2");
 	}
 }
 
 abstract class Manager extends Employee {
 	public void calcSalary() {
-		System.out.println("Manager ±Ş¿© = ±âº»±Ş + ÆÀ ¼º°ú ¼ö´ç");
+		System.out.println("Manager ê¸‰ì—¬ = ê¸°ë³¸ê¸‰ + íŒ€ ì„±ê³¼ ìˆ˜ë‹¹");
 	}
 
 }
 
 class Director extends Manager {
 	public void calcBonus() {
-		System.out.println("Director º¸³Ê½º = ±âº»±Ş * 12 * 6");
+		System.out.println("Director ë³´ë„ˆìŠ¤ = ê¸°ë³¸ê¸‰ * 12 * 6");
 	}
 }
 

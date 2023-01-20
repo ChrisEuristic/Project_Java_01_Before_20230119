@@ -1,24 +1,21 @@
 package com.ruby.java.ch09;
 
 public class MyObject {
-
-	int num;
-
-	MyObject(int num) {
-		this.num = num;
+	
+	private int num;
+	
+	MyObject(int i) {
+		this.num = i;
 	}
-
-	public String toString() {
-		return "MyObject";
-	}
-
+	
 	public boolean equals(Object obj) {
-		boolean result = false;
-		MyObject arg = (MyObject) obj;
-
-		if (this.num == arg.num) {
-			result = true;
-		}
-		return result;
+		
+		MyObject mobj = (MyObject) obj;
+		
+		if(this.num == mobj.num)
+			return true;
+		else
+			return false;
+		
 	}
 }

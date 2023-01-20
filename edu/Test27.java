@@ -1,22 +1,24 @@
 package edu;
 
 public class Test27 {
+
 	public static void main(String[] args) {
-// for ¹®
-		for (int i = 10; i < 10; i++) {
-			System.out.println("for OK");
+		// TODO Auto-generated method stub
+		for(int i=0; i<10; i++) {
+			System.out.println(i);
 		}
-// while ¹®
-		int j = 10;
-		while (j < 10) {
-			System.out.println("while OK");
+		
+		int j = 0;
+		while(j<10) {
+			System.out.println(j);
 			j++;
 		}
-// do~while ¹®
-		int k = 10;
+		
+		j = 0;
 		do {
-			System.out.println("do-while OK");
-			k++;
-		} while (k < 10);
+			System.out.println(j);
+			j++;
+		} while(j<10);
 	}
+
 }

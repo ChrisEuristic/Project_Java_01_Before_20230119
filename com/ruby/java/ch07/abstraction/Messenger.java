@@ -12,14 +12,14 @@ public interface Messenger {
 	public default void setLogin(boolean login) {
 		log();
 		if (login) {
-			System.out.println("·Î±×ÀÎ Ã³¸®ÇÕ´Ï´Ù.");
+			System.out.println("ë¡œê·¸ì¸ ì²˜ë¦¬í•©ë‹ˆë‹¤.");
 		} else {
-			System.out.println("·Î±×¾Æ¿ô Ã³¸®ÇÕ´Ï´Ù");
+			System.out.println("ë¡œê·¸ì•„ì›ƒ ì²˜ë¦¬í•©ë‹ˆë‹¤");
 		}
 	}
 
 	public static void getConnection() {
-		System.out.println("network¿¡ ¿¬°áÇÕ´Ï´Ù.");
+		System.out.println("networkì— ì—°ê²°í•©ë‹ˆë‹¤.");
 	}
 
 	private void log() {

@@ -1,17 +1,23 @@
 package com.ruby.java.ch09;
 
 public class Test03 {
+
 	public static void main(String[] args) {
 
 		String s = "have a good day!";
-
+		
 		int length = s.length();
-		System.out.println("ÃÑ ±ÛÀÚ ¼ö : " + length);
+		System.out.println("ì´ ê¸€ì ìˆ˜ : " + length);
 		char c;
-
-		for (int i = 0; i < length; i++) {
+		
+		for(int i = 0; i < length; i++) {
 			c = s.charAt(i);
-			System.out.print(c);
+			if(c == ' ')
+				System.out.println();
+			else
+				System.out.print(c);
 		}
+
 	}
+
 }

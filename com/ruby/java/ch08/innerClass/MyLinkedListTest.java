@@ -9,5 +9,7 @@ public class MyLinkedListTest {
 		myList.add("JSP");
 		myList.add("Servlet");
 		myList.print();
+		//MyLinkedList.Node nd = myList.new Node("Hong");
+		//nd.data = "hello";
 	}
 }

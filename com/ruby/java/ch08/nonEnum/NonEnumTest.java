@@ -1,17 +1,17 @@
 package com.ruby.java.ch08.nonEnum;
 
-class Status {
+/*class Status {
 	public static final int READY = 1;
 	public static final int SEND = 2;
 	public static final int COMPLETE = 3;
 	public static final int CLOSE = 4;
-}
+}*/
 
 public class NonEnumTest {
 	public static void main(String[] args) {
 		int work = 0;
 		int n = 2;
-
+/*
 		switch (n) {
 		case 1:
 			work = Status.READY;
@@ -26,6 +26,6 @@ public class NonEnumTest {
 			work = Status.CLOSE;
 			break;
 		}
-		System.out.println("ÇöÀç ÀÛ¾÷ »óÅÂ : " + work);
+		System.out.println("í˜„ì¬ ì‘ì—… ìƒíƒœ : " + work);*/
 	}
 }

@@ -1,15 +1,19 @@
 package edu;
 
 public class Test19 {
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		int score = 90;
 		String result = "";
-
-		if (score >= 60) {
-			result = "ÇÕ°Ý";
-		} else {
-			result= "ºÒÇÕ°Ý";
+		
+		if(score >= 60) {
+			result = "í•©ê²©";
+		}
+		else {
+			result = "ë¶ˆí•©ê²©";
 		}
 		System.out.println(result);
 	}
+
 }

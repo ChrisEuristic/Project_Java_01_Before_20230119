@@ -1,30 +1,30 @@
 package com.ruby.java.ch06;
 
 public class Member {
+	
 	private String name;
 	private int age;
-
+	
 	public Member() {
-		System.out.println("Member() »ı¼ºÀÚ ½ÇÇà");
+		System.out.println("Member() ìƒì„±ì ì‹¤í–‰");
 	}
-
+	
 	public Member(String name) {
-		System.out.print("Member(String) »ı¼ºÀÚ ½ÇÇà : ");
-		System.out.println(name);
+		System.out.println("Member(name) ìƒì„±ì ì‹¤í–‰");
 	}
-
+	
 	public Member(String name, int age) {
-		System.out.print("Member(String, int) »ı¼ºÀÚ ½ÇÇà : ");
-		System.out.println(name + " : " + age);
-	}
-
-	public void setName(String name) {
+		System.out.println("Member(name, age) ìƒì„±ì ì‹¤í–‰");
 	}
 
 	public static void main(String[] args) {
-		System.out.println("main() ¸Ş¼­µå ½ÇÇà");
+		// TODO Auto-generated method stub
+		System.out.println("main() ë©”ì„œë“œ ì‹¤í–‰");
 		new Member();
 		new Member("Amy");
-		new Member("Amy", 23);
+		new Member("Amy", 13);
+		
+		
 	}
+
 }

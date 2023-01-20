@@ -2,22 +2,22 @@ package com.ruby.java.ch07.inheritance;
 
 public class LMSTest {
 	public static void main(String[] args) {
-		Employee e = new Employee();
-		Professor p = new Professor();
-		Student s = new Student();
+		Employee e = new Employee("í™ê¸¸ë™", 33, "ìë¹„");
+		Professor p = new Professor("í™ê¸¸ìˆœ", 44, "ì˜ì˜");
+		Student s = new Student("í™ê¸¸ë‚˜", 55, "ì½”ë”©");
 
-		e.setName("¿ÀÁ¤ÀÓ");
+		e.setName("ì˜¤ì •ì„");
 		e.setAge(47);
-		e.setDept("ÀÔÇĞÃ³");
+		e.setDept("ì…í•™ì²˜");
 
-		p.setName("±èÇª¸§");
+		p.setName("ê¹€í‘¸ë¦„");
 		p.setAge(52);
-		p.setSubject("ºòµ¥ÀÌÅÍ");
+		p.setSubject("ë¹…ë°ì´í„°");
 
-		s.setName("±èÀ¯ºó");
+		s.setName("ê¹€ìœ ë¹ˆ");
 		s.setAge(20);
-		s.setMajor("ÄÄÇ»ÅÍ°úÇĞ");
-
+		s.setMajor("ì»´í“¨í„°ê³¼í•™");
+		
 		System.out.println(e.toString());
 		System.out.println(p.toString());
 		System.out.println(s.toString());
